@@ -9,6 +9,7 @@ console.log(arr1);  //1234
 console.log(arr2);  //123
 ```
 ```javascript
+// 对象复制
 const scheme = {goodsId: 1};
 const bindScheme = Object.assign({}, scheme);
 bindScheme.goodsName = 'hello';
