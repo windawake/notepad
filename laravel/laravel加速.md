@@ -1,3 +1,4 @@
+### php-pfm下的优化
 关闭应用debug app.debug=false
 
 缓存配置信息 php artisan config:cache
@@ -15,3 +16,10 @@
 使用 PHP 7.x
 
 开启opcache
+
+
+### 这些做法可以是qps翻倍，但是使用swoole可以再乘以4倍
+
+![avatar](01.png)
+
+![avatar](02.png)
